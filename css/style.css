@@ -1,0 +1,34 @@
+
+
+:root {
+    --primary-color: #4F4F4F; 
+    --secondary-color:#;
+    --brand-color:#647B64;
+    --color-inverted:#fefefe;
+    --background-color:#f3f1ee;
+    --color-accent:#f3b562;
+    --color-white:;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    font-size: 16px;
+}
+
+.advantage-card:hover {
+    background-color: ;
+}
+
+.advantage-card-title {
+
+}
+
+.advantage-card-text {
+
+}
+
+.advantage-card {
+    color: inherit;
+    text-decoration: none;
+}
