@@ -7,13 +7,33 @@
     --color-inverted:#fefefe;
     --background-color:#f3f1ee;
     --color-accent:#f3b562;
+    --body-bg-color:#E5E5E5;
+    --footer-bg-color:#F0DCC5;
 }
 
 body {
-    background-color: var(--background-color);
+    background-color: var(--body-bg-color);
     color: var(--primary-color);
     font-size: 16px;
 }
+
+.flex {
+    display: flex;
+}
+
+/* Header */
+.nav-container {
+    background-color: var(--background-color);
+}
+
+.nav-list {
+
+}
+
+.nav-list-item {
+
+}
+
 
 .advantage-card:hover {
 }
@@ -36,6 +56,7 @@ body {
     max-width: 1168px;
     margin: 0 auto;
     padding: 0 16px;
+    outline: 1px solid orange;
 }
 
 ul {
@@ -44,4 +65,15 @@ ul {
 
 .section {
     padding: 64px 0;
+    background-color: var(--background-color);
+}
+
+/* Footer */
+.footer-container {
+width: 100%;
+    max-width: 1168px;
+    margin: 0 auto;
+    padding: 0 16px;
+    outline: 1px solid orange;
+    background-color: var(--footer-bg-color);
 }

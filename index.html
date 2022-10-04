@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tenis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <title>Tenis</title>
 </head>
 <body>
     <!-- Header -->
     <header>
-        <div class="container section">
-            <img src="#" alt="awesom ui logo">
-            <a href="/">AWESOME UI </a>
+        <div class="nav-container container  flex">
+            <a href="/"> <img src="./images/svg/logo.svg" alt="Awesom ui logo">
+            <img src="./images/svg/awesomui.svg" alt="Awesom ui text"></a>
             <nav>
-                <ul> 
+                <div class="nav-list">
+                <ul class="nav-list-item flex"> 
                     <li><a href="#" aria-label="Benefits">Benefits</a></li>
                     <li><a href="#" aria-label="Features">Features</a></li>
                     <li><a href="#" aria-label="About">About</a></li>
                     <li><a href="#" aria-label="Team">Team</a></li>
                 </ul>
+            </div>
             </nav>
             <button type="button" aria-label="Register">Register</button>
         </div>
@@ -35,11 +38,11 @@
             <img src="#" alt="women is playing tennis">
         </div>
     </section>
-    <!-- Benefits -->
+    <!-- Advantages -->
     <section>
         <div class="container section">
-            <span>Advantages</span>
-            <h2>Our benefits</h2>
+            <h2>Advantages</h2>
+            <h3>Our benefits</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consequatur aliquid, praesentium officia voluptas odit quibusdam nulla beatae,
                 veniam soluta est? Repellendus exercitationem consequatur tenetur dolores ut accusamus incidunt libero!
@@ -48,7 +51,7 @@
             <ul>
                 <li>
                     <a href="#" class="advantage-card">
-                    <img src="" alt="">
+                    <img src="./images/svg/smart-car.svg" alt="">
                     <h3 class="advantage-card-title">Car Rental</h3>
                     <p class="advantage-card-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel et minima saepe ex cumque ut ducimus natus quibusdam voluptatum rerum maxime, 
@@ -58,7 +61,7 @@
                 </li>
                 <li>
                     <a href="#" class="advantage-card">
-                    <img src="" alt="">
+                    <img src="./images/svg/ship.svg" alt="">
                     <h3 class="advantage-card-title">Boat Cruiz</h3>
                     <p class="advantage-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae qui ea nulla voluptatum! Tempore quam atque, natus quaerat labore 
                         rerum non vero aperiam! Sed culpa dignissimos quis exercitationem ex? In!
@@ -67,7 +70,7 @@
                 </li>
                 <li>
                     <a href="#" class="advantage-card">
-                    <img src="" alt="">
+                    <img src="./images/svg/bus.svg" alt="">
                     <h3 class="advantage-card-title">Bus Trip</h3>
                     <p class="advantage-card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab qui id facere nisi soluta tenetur ipsam, nihil ipsum quisquam temporibus
                         maiores distinctio molestias nam quos alias accusantium officiis. Itaque, magnam!
@@ -76,7 +79,7 @@
                 </li>
                 <li>
                     <a href="#" class="advantage-card">
-                    <img src="" alt="">
+                    <img src="./images/svg/driving.svg" alt="">
                     <h3 class="advantage-card-title">Road Trip</h3>
                     <p class="advantage-card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus reprehenderit consequuntur doloremque sapiente ea ut, temporibus in
                         magni ducimus iste vel rerum? Officia nihil qui nulla saepe, dolorem vitae blanditiis.
@@ -88,9 +91,32 @@
     </section>
     <section>
         <div class="container section">
-            <img src="" alt="">
-            <span>About us</span>
-            <h2>Who we are</h2>
+            <h2>Features</h2>
+            <h3>What we can apply</h3>
+            <ul>
+                <li>
+                    <img src="./images/svg/group.svg" alt="">
+                    <h2>Mot consected</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
+            </li>
+                <li>
+                    <img src="" alt="">
+                    <h2>Mot consected</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
+            </li>
+                <li>
+                    <img src="" alt="">
+                    <h2>Mot consected</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quis vitae</p>
+            </li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <div class="container section">
+            <img src="./images/jpeg/about.jpg" alt="">
+            <h2>About us</h2>
+            <h3>Who we are</h3>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consequatur aliquid, praesentium officia voluptas
                 odit quibusdam nulla beatae,
@@ -100,6 +126,11 @@
     </section>
     
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+        <div class="footer-container">
+            <a href="/"> <img src="./images/svg/logo.svg" alt="Awesom ui logo">
+                <img src="./images/svg/awesomui.svg" alt="Awesom ui text"></a>
+        </div>
+    </footer>
 </body>
 </html>
